@@ -1,1 +1,10 @@
-﻿Console.WriteLine("Hello, World!");
+﻿namespace Interface
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            
+        }
+    }
+}
