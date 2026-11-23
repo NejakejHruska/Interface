@@ -9,7 +9,7 @@ namespace Interface
 
         public void Tiskni(string dokument)
         {
-            Console.WriteLine("Tisknu dokument" + dokument);
+            Console.WriteLine("Tisknu dokument " + dokument);
         }
 
         public void Pripoj(string adresa)
