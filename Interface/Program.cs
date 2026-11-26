@@ -6,7 +6,7 @@
         {
             Tiskarna HP = new Tiskarna();
             Skener Canon = new Skener();
-            MultifunkcniZarizeni Epson = new MultifunkcniZarizeni();
+            MultifunkcniZarizeni Epson = new MultifunkcniZarizeni("PRT-Multi", "S01E2", 100, true, 600, false);
 
             HP.Tiskni("Vyplata.pdf");
 
@@ -18,7 +18,7 @@
             //Nemohu vytvářet instance rozhranní
             //IPripojitelne lan = new Ipripojitelne();
 
-            ITiskarna seznamTiskaren = new Itiskarna[2];
+            ITiskarna [] seznamTiskaren = new ITiskarna[2];
             
             seznamTiskaren[0] = HP;
             seznamTiskaren[1] = Epson;
